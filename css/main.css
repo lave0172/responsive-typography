@@ -12,6 +12,9 @@ html {
   text-size-adjust: 100%;
 
   color: #222;
+  line-height: 1.5;
+  font-family: "Crimson Text", serif;
+
 }
 
 *, *::before, *::after {
@@ -24,6 +27,7 @@ article {
 
 article h1 {
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 article header {
@@ -32,6 +36,7 @@ article header {
 
 article header p {
   font-style: italic;
+  margin-top: 0;
 }
 
 article > p:last-child {
@@ -46,4 +51,24 @@ blockquote {
 
 .quote {
   color: #999;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
