@@ -83,8 +83,13 @@ body {
 @media only screen and (min-width: 38em) {
 
   html {
-    font-size: 1.2em;
-    line-height: 1.2;
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  blockquote {
+    padding-left: 37px;
+    padding-bottom: 2px;
   }
 
   ol {
@@ -96,7 +101,12 @@ body {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 1.5em;
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  blockquote {
+    padding-left: 150px;
   }
 
 }
@@ -104,8 +114,13 @@ body {
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 1.3em;
-    padding: 50px;
+    font-size: 130%;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+
+  blockquote {
+    padding-left: 150px;
   }
 
 }
